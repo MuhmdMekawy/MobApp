@@ -1,0 +1,91 @@
+@media(max-width : 990px){
+    .navbar .content .right{
+        display: none;
+    }
+    .navbar .btn-check:focus + .btn-primary, .btn-primary{
+        display: inline-block;
+    }
+    
+    .features .content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .features .content .cont{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .discover .content .left img{
+        width: 100%;
+    }
+    .discover .content .right{
+        width: initial;
+        margin-bottom: initial;
+        margin-left: initial;
+    }
+    .more .accordion-body{
+        flex-direction: column;
+    }
+    .accordion-item:nth-child(2) .accordion-body{
+        flex-direction: column-reverse;
+    }
+    
+    .accordion-item:last-of-type .accordion-body{
+        flex-direction: column-reverse;
+    }
+    .more .accordion-body img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .launch .left img{
+        width: 320px;
+    }
+    .launch .right{
+        text-align: center;
+        padding-top: 15px;
+    }
+    .launch .right p{
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pricing .content{
+        flex-direction: column;
+    }
+    .pricing .content .cont{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pricing .content .two{transform: translate(0);}
+}
+@media(max-width:790px){
+    .header{
+        height: 130vh;
+    }
+    .header img{
+        width: 100%;
+    }
+    .accordion-item .accordion-button{
+        font-size: 20px;
+    }
+    .steps .content{
+        flex-direction: column-reverse;
+    }
+    .steps .content .left .cont{
+        flex-direction: column;
+        gap: 0;
+    }
+    .steps .content img{
+        width: 370px;
+    }
+    .tempContainer{
+        top: 0;
+    }
+    .tempContainer img{
+        width: 374px;
+        height: 400px;
+        object-fit: contain;
+        margin-top: 90px;
+    }
+
+}
