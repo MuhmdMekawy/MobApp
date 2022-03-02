@@ -1,3 +1,8 @@
+@media(max-width : 1200px){
+    #slideshow{
+        height: 600px;
+    }
+}
 @media(max-width : 990px){
     .navbar .content .right{
         display: none;
@@ -8,6 +13,7 @@
     
     .features .content{
         flex-direction: column;
+        justify-content: center;
         gap: 20px;
     }
     .features .content .cont{
@@ -56,6 +62,13 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .steps .content{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .steps .content .right{
+        max-width: 500px;
+    }
     .pricing .content .two{transform: translate(0);}
 }
 @media(max-width:790px){
@@ -68,15 +81,12 @@
     .accordion-item .accordion-button{
         font-size: 20px;
     }
-    .steps .content{
-        flex-direction: column-reverse;
-    }
     .steps .content .left .cont{
         flex-direction: column;
         gap: 0;
     }
     .steps .content img{
-        width: 370px;
+        width: 270px;
     }
     .tempContainer{
         top: 0;
@@ -87,5 +97,39 @@
         object-fit: contain;
         margin-top: 90px;
     }
-
+    .steps .content .left .cont .left h1{
+        width: 60px;
+        height: 60px;
+        line-height: 2.3;
+    }
+    .test .cont p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .pricing .content .cont h5{
+        margin-bottom: 0;
+    }
+    .features,
+    .discover,
+    .more,
+    .pricing,
+    .faq,
+    .steps,
+    .gallery .content{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .more .accordion-body .right p{
+        font-size: 12px;
+    }
+    #slideshow{
+        height: 565px;
+    }
+    .pricing .content{
+        padding-top: 30px;
+    }
+    .special-heading p + h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
 }

@@ -1,9 +1,33 @@
 window.onload = function(){
-    $('.loading ').fadeOut(1000);
-    $('-webkit-scrollbar').show(1000)
+    $('.loading ').fadeOut(500).parent().css({
+        "overflow" : "hidden"
+    })
+    // $('-webkit-scrollbar').show(1000)
 }
 
 $(document).ready(function(){
+    $('.test-slider').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:1500,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+    $('.loading ').parent().css({
+        "overflow-y" : "scroll"
+    })
     $('.test .content .right').click(function(){
         $('.test .cont').last().hide(500);
         $('.test .cont').first().animate({
@@ -116,7 +140,7 @@ $(document).ready(function(){
         if(src >= 1000){
             $('.up').show(1000);
             $('.up').click(function(){
-                $(window).scrollTop(0)
+                $(window).scrollTop(0) 
             })
         }
         else{
