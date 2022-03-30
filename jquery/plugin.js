@@ -1,9 +1,9 @@
-window.onload = function(){
-    $('.loading ').fadeOut(500).parent().css({
-        "overflow-x" : "hidden" ,
-        "overflow-y" : "scroll"
-    })
-}
+// window.onload = function(){
+//     $('.loading ').fadeOut(500).parent().css({
+//         "overflow-x" : "hidden" ,
+//         "overflow-y" : "scroll"
+//     })
+// }
 
 $(document).ready(function(){
     $('.test-slider').owlCarousel({
