@@ -1,6 +1,6 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 :root{
@@ -779,7 +779,7 @@ a{
 
 /* end up */
 /* start loading */
-.loading {
+/* .loading {
     position: absolute;
     top: 0;
     left: 0;
@@ -792,7 +792,6 @@ a{
     text-align: center;
 }
 .loading img{
-    /* margin-left: 450px; */
     padding-top: 280px;
-}
+} */
 /* end loading */
