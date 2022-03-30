@@ -1,6 +1,6 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
 }
 :root{
