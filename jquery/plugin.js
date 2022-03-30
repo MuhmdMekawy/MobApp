@@ -1,8 +1,8 @@
 window.onload = function(){
     $('.loading ').fadeOut(500).parent().css({
-        "overflow" : "hidden"
+        "overflow-x" : "hidden" ,
+        "overflow-y" : "scroll"
     })
-    // $('-webkit-scrollbar').show(1000)
 }
 
 $(document).ready(function(){
